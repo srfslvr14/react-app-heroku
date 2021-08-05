@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <h1> Kaitlyn has a tier 1 ass </h1>
-    </div>
+
+    <h1> Kaitlyn has a tier 1 ass </h1>
+
   );
 }
 
