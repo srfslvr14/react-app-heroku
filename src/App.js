@@ -3,9 +3,10 @@ import './App.css';
 
 function App() {
   return (
-
-    <h1> Kaitlyn has a tier 1 ass </h1>
-
+    <div>
+      <h1> Welcome to my personal website, here is what I have to say: </h1>
+      <h1> I want to leave hickeys all up and down Kaitlyn's body and make her squerm </h1>
+    </div>
   );
 }
 
