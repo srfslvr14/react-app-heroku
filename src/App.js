@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Layout from './Comp/Layout.js' 
+import Layout from './Comp/NavLayout.js' 
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+   <div>
       <Layout/>
     </div>
   );
