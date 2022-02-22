@@ -24,7 +24,7 @@ export default function Controller() {
             <ProjectPage/>
           </Route>
 
-          <Route path="/contact">
+          <Route path="/">
             <ContactPage/>
           </Route>
 
