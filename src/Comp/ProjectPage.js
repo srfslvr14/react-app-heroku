@@ -2,9 +2,10 @@ import React from "react";
 
 export default function ProjectPage() {
   return (
-      <div>
-        Project
-      </div>
-
+    <div>
+      project
+    </div>
   );
 }
+
+/* <div dangerouslySetInnerHTML={lab5} /> */
