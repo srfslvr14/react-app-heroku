@@ -6,10 +6,10 @@ import {
   Link
 } from "react-router-dom";
 
-import HomePage from "./Home/HomePage";
-import AboutPage from "./About/AboutPage";
-import ContactPage from "./Contact/ContactPage";
-import ProjectPage from "./Projects/ProjectPage";
+import HomePage from "./HomePage";
+import AboutPage from "./AboutPage";
+import ContactPage from "./ContactPage";
+import ProjectPage from "./ProjectPage";
 
 export default function Controller() {
   return (
