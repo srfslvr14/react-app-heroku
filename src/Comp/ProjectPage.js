@@ -7,8 +7,8 @@ export default function ProjectPage() {
     <div>
 
     <div class="row">
-        <div class="col s12 m5">
-          <div class="card hoverable medium rounded" Style="width:400px;">
+        <div class="col s1 m5">
+          <div class="card hoverable medium" >
             <div class="card-image waves-effect waves-block waves-light">
               <img src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
               <span class="card-title">Card Title</span>
@@ -21,8 +21,39 @@ export default function ProjectPage() {
               <a href="#">This is a link</a>
             </div>
           </div>
-
-          <div class="card hoverable medium" Style="width:400px;">
+        </div>
+        <div class="col s1 m5">
+        <div class="card hoverable medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s1 m5">
+          <div class="card hoverable medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s1 m5">
+          <div class="card hoverable medium">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
             </div>
