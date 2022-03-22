@@ -22,6 +22,7 @@ export default function Controller() {
 
           <Route path="/projects">
             <ProjectPage/>
+            Projects
           </Route>
 
           <Route path="/contact">
