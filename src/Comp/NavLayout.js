@@ -36,6 +36,9 @@ class NavLayout extends React.Component{
                                 <a class="nav-link"> <Link to="/projects">Projects</Link></a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link"> <Link to="/resume">Resume</Link></a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link"> <Link to="/contact">Contact</Link></a>
                             </li>
 
