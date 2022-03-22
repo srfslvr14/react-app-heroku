@@ -1,7 +1,7 @@
 import './App.css';
 import Layout from './Comp/NavLayout.js' 
 
-import 'materialize/css/materialize.min.css';
+// import 'materialize/css/materialize.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
