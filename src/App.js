@@ -6,9 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import M from 'materialize-css'
 
 function App() {
+
   return (
-   <div>
-      <Layout/>      
+    <div>
+      <Layout/>  
     </div>
   );
 }

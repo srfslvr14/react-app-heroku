@@ -1,10 +1,27 @@
 import React from "react";
+import behind from '../assests/particlesjs-config.json'
 
 
 export default function HomePage() {
+
+  function get_date(){
+    let today = new Date().getDay();
+    let todayAsString = ''
+    switch (today){
+      case 0: todayAsString = 'Sunday'; break;
+      case 1: todayAsString = 'Monday'; break;
+      case 2: todayAsString = 'Tuesday'; break;
+      case 3: todayAsString = 'Wednesday'; break;
+      case 4: todayAsString = 'Thursday'; break;
+      case 5: todayAsString = 'Friday'; break;
+      case 6: todayAsString = 'Saturday'; break;
+    }
+    return todayAsString;
+  }
+
   return (
       <div>
-        <div class="ps">I hope you’re having a good <span id="day">Tuesday</span>.</div>
+        <div class="day">I hope you’re having a good <span id="day">{get_date()}</span>.</div>
       </div>
   );
 }

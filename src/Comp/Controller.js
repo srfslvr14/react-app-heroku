@@ -8,7 +8,6 @@ import {
 
 import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
-import ResumePage from "../files/SpencerFulghamResume.pdf";
 import ContactPage from "./ContactPage";
 import ProjectPage from "./ProjectPage";
 
