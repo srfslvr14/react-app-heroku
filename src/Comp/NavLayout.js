@@ -48,6 +48,7 @@ class NavLayout extends React.Component{
                             <li><a href={ResumePage} Style="font-size:100%;">Resume</a></li>
                             <li><a href="/Contact" Style="font-size:100%;">Contact</a></li>
                         </ul>
+
                         <a data-target="slide-out" class="sidenav-trigger left show-on-med-and-down" 
                             Style="line-height: 100px; height: 100px; font-size:150%;">
                             <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
@@ -56,15 +57,24 @@ class NavLayout extends React.Component{
                     </div>
                 </div>
             </nav>
-            <ul id="slide-out" class="sidenav teal accent-4">
+
+            <ul id="slide-out" class="sidenav" Style="width:40%">
                 <ul>
-                    <li><a href="/">
-                        <img src={home} alt="home" Style="width:18% "/>
+                    <li><a href="/" Style="color:teal">
+                        <i class="material-icons" Style="color:teal">home</i> Home
                     </a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href={ResumePage}>Resume</a></li>
-                    <li><a href="/Contact">Contact</a></li>
+                    <li><a href="/about" Style="color:teal">
+                        <i class="material-icons" Style="color:teal">account_box</i> About
+                    </a></li>
+                    <li><a href="/projects" Style="color:teal">
+                        <i class="material-icons" Style="color:teal">local_florist</i> Projects
+                    </a></li>
+                    <li><a href={ResumePage} Style="color:teal">
+                        <i class="material-icons" Style="color:teal">description</i> Resume
+                    </a></li>
+                    <li><a href="/Contact" Style="color:teal">
+                        <i class="material-icons" Style="color:teal">perm_phone_msg</i> Contact
+                    </a></li>
                 </ul>
             </ul>
             
