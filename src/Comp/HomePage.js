@@ -1,10 +1,11 @@
 import React from "react";
 import behind from '../assests/particlesjs-config.json'
+import M from 'materialize-css'
 
 
-export default function HomePage() {
+export default class HomePage extends React.Component{
 
-  function get_date(){
+  get_date(){
     let today = new Date().getDay();
     let todayAsString = ''
     switch (today){
@@ -19,9 +20,11 @@ export default function HomePage() {
     return todayAsString;
   }
 
-  return (
+  render(){  
+    return (
       <div>
-        <div class="day">I hope you’re having a good <span id="day">{get_date()}</span>.</div>
+        <div class="day">I hope you’re having a good <span id="day">{this.get_date()}</span>.</div>
       </div>
-  );
+    );
+  }
 }
