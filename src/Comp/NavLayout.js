@@ -36,12 +36,8 @@ class NavLayout extends React.Component{
             <nav class="teal accent-4" Style="height: 100px; line-height: 100px; font-size:150%;">
                 <div class="nav-wrapper">
                     <div class="container">
-                        <a href="/" class="brand-logo" 
-                            // Style="font-weight: bold;"
-                            > 
-                            <img src={home} alt="home" Style="width:18%"/>
-                            SRF
-                        </a>
+                        <a href="/" class="brand-logo right hide-on-large-only" > SRF <img src={home} alt="home" Style="width:18%"/></a>
+                        <a href="/" class="brand-logo left  hide-on-med-and-down" > SRF <img src={home} alt="home" Style="width:18%"/></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down" Style="margin-right:-4%;">
                             <li><a href="/about" Style="font-size:100%;">About</a></li>
                             <li><a href="/projects" Style="font-size:100%;">Projects</a></li>
