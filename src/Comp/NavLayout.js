@@ -3,6 +3,7 @@ import Controller from './Controller.js';
 import ResumePage from "../assests/SpencerFulghamResume.pdf";
 import Particles from "react-tsparticles";
 import bg from "../assests/bg.jpg"
+import home from './home-5-128.png'
 
 import {
     BrowserRouter as Router, Link
@@ -12,10 +13,8 @@ class NavLayout extends React.Component{
 
     particlesInit = (main) => {
         console.log(main);
-        
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     };
-
     particlesLoaded = (container) => {
         console.log(container);
     };
@@ -27,17 +26,18 @@ class NavLayout extends React.Component{
             <nav class="teal accent-4">
                 <div class="nav-wrapper">
                     <div class="container">
-                        <a href="/" class="brand-logo"> 
-                            <img src='home-5-128.png' alt="home"/>
-                            {/* <img src="https://i.guim.co.uk/img/media/adb07692c230ca00b2a3867d42e30f3fcd7e4a61/193_388_7132_4281/master/7132.jpg?width=1200&quality=85&auto=format&fit=max&s=d4cdbdf58e5ac51973a0bf7f0a7f5f3d" alt="wave"></img> */}
-                            {/* <img src="https://www.pikpng.com/pngl/m/457-4574987_white-house-icon-png-clipart.png" alt="White House Icon Png Clipart@pikpng.com"></img> */}
+                        <a href="/" class="brand-logo" Style="text-decoration: underline;"> 
+                            <img src={home} alt="home" Style="width:18% "/>
                             SRF
                         </a>
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <ul id="nav-mobile" class="right hide-on-small">
                             <li><a href="/about">   About   </a></li>
                             <li><a href="/projects">Projects</a></li>
                             <li><a href={ResumePage}> Resume  </a></li>
                             <li><a href="/Contact"> Contact </a></li>
+                        </ul>
+                        <ul id="nav-mobile" class="right hide-on-med-and-up show-on-small">
+                            <li><a href="/about">   sex   </a></li>
                         </ul>
                         
                     </div>
