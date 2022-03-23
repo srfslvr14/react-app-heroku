@@ -8,7 +8,7 @@ import {
 
 import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
-import ResumePage from "./ContactPage";
+import ResumePage from "../files/SpencerFulghamResume.pdf";
 import ContactPage from "./ContactPage";
 import ProjectPage from "./ProjectPage";
 
@@ -25,10 +25,8 @@ export default function Controller() {
             <ProjectPage/>
           </Route>
 
-          <Route path="/resume">
-            <ResumePage/>
-          </Route>
-
+          {/* Resume tag on navbar links directly to resume.pdf */}
+          
           <Route path="/contact">
             <ContactPage/>
           </Route>
