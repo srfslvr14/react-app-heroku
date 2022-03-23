@@ -1,6 +1,6 @@
 import React from "react";
 import tljs from '../vertical-timeline-master/assets/js/main'
-import tlstyle from '../vertical-timeline-master/assets/css/style.css'
+// import tlstyle from '../vertical-timeline-master/assets/css/style.css'
 export default function AboutPage() {
   return ( 
     <div>
