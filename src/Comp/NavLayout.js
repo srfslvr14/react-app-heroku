@@ -59,7 +59,7 @@ class NavLayout extends React.Component{
             </nav>
 
             <ul id="slide-out" class="sidenav" Style="width:40%">
-                <ul>
+                <ul Style="margin-top:15%">
                     <li><a href="/" Style="color:teal">
                         <i class="material-icons" Style="color:teal">home</i> Home
                     </a></li>
