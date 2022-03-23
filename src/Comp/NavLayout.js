@@ -18,6 +18,7 @@ class NavLayout extends React.Component{
             var instances = M.Sidenav.init(elems);
         });
     }
+    
 
     particlesInit = (main) => {
         console.log(main);
@@ -32,7 +33,7 @@ class NavLayout extends React.Component{
   render(){
     return(
         <Router>
-            <nav class="teal accent-4">
+            <nav class="teal accent-4" >
                 <div class="nav-wrapper">
                     <div class="container">
                         <a href="/" class="brand-logo" 
@@ -47,22 +48,24 @@ class NavLayout extends React.Component{
                             <li><a href={ResumePage}>Resume</a></li>
                             <li><a href="/Contact">Contact</a></li>
                         </ul>
+                        <a data-target="slide-out" class="sidenav-trigger left show-on-med-and-down">
+                            <i class="material-icons">menu</i>
+                        </a>
                         
                     </div>
                 </div>
             </nav>
-            <ul id="slide-out" class="sidenav">
-                <li><div class="user-view">
-                <a href="#name"><span class="white-text name">John Doe</span></a>
-                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                </div></li>
-                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-                <li><a href="#!">Second Link</a></li>
-                <li><div class="divider"></div></li>
-                <li><a class="subheader">Subheader</a></li>
-                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            <ul id="slide-out" class="sidenav teal accent-4">
+                <ul>
+                    <li><a href="/">
+                        <img src={home} alt="home" Style="width:18% "/>
+                    </a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href={ResumePage}>Resume</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                </ul>
             </ul>
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             
             <div class="container" Style="margin-top:2%;">
                 
