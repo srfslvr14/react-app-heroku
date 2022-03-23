@@ -4,7 +4,7 @@ import React from "react";
 export default function ContactPage() {
   return (
     <div class="container" Style="width:100%;">
-      <div class="row" Style="margin-top:5%">
+      <div class="row" Style="margin-top:9%">
         <div title="email" class="col s4">
           <div class="center promo promo-example">
             <a href="mailto:srayfulgham@gmail.com" title="Email">
