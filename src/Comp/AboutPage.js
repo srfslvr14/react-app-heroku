@@ -57,7 +57,7 @@ export default function AboutPage() {
           
           <div class="timeline-item">
 
-            <div class="timeline-img"></div>
+            <div class="timeline-img teal accent-4"></div>
 
             <div class="timeline-content timeline-card js--fadeInLeft">
               <div class="timeline-img-header">
