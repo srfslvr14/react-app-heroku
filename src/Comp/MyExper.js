@@ -62,7 +62,7 @@ export default function MyExper() {
           <div class="timeline-item">
             <div class="timeline-img teal accent-4"></div>
             <div class="timeline-content timeline-card js--fadeInRight">
-              <div class="timeline-img-header" Style="height:100px">
+              <div class="timeline-img-header" Style="height:120px">
                 <h2>Coding Minds Online Instructor</h2>
               </div>
                 <div class="date indigo lighten-1">JUN 2021 - OCT 2021</div>
@@ -160,7 +160,7 @@ export default function MyExper() {
           <div class="timeline-item">
             <div class="timeline-img teal accent-4"></div>
             <div class="timeline-content timeline-card js--fadeInRight">
-              <div class="timeline-img-header" Style="height:90px">
+              <div class="timeline-img-header" Style="height:100px">
                 <h2>Crown Student Senator</h2>
               </div>
                 <div class="date indigo lighten-1">OCT 2018 - JUN 2021</div>
@@ -177,7 +177,7 @@ export default function MyExper() {
           <div class="timeline-item">
             <div class="timeline-img teal accent-4"></div>
             <div class="timeline-content timeline-card js--fadeInRight">
-              <div class="timeline-img-header" Style="height:100px">
+              <div class="timeline-img-header" Style="height:120px">
                 <h2>ASB Commissioner of Activities</h2>
               </div>
                 <div class="date indigo lighten-1">JUL 2017 - JUN 2018</div>
