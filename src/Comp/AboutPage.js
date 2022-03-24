@@ -1,51 +1,129 @@
 import React from "react";
-import tljs from '../vertical-timeline-master/assets/js/main'
-import TimnelineStyle from '../vertical-timeline-master/assets/css/newStyle.css'
+import TLcss from '../vertical-timeline-2/css/style.css'
+
 export default function AboutPage() {
   return ( 
     <div>
-      {/* <header class="cd-main-header text-center flex flex-column flex-center"> </header> */}
+      <section class="timeline">
+        <div class="containerTL">
+          <div class="timeline-item">
+            <div class="timeline-img teal accent-4"></div>
 
-        <div class="container max-width-lg cd-timeline__container">
-          <div class="cd-timeline__block">
-            <div class="cd-timeline__img cd-timeline__img teal accent-1">
-              Grad.
-            </div> 
-            <div class="cd-timeline__content text-component">
-              <h2>Title of section 1</h2>
-              <p class="color-contrast-medium">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-
-              </p>
-
-              <div class="flex justify-between items-center">
-                <span class="cd-timeline__date">2018</span>
-                <a href="#0" class="btn btn--subtle">Read more</a>
-              </div>
+            <div class="timeline-content js--fadeInLeft">
+              <h2>Title</h2>
+              <div class="date">1 MAY 2016</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
             </div>
           </div> 
           
+          <div class="timeline-item">
 
-          <div class="cd-timeline__block">
-            <div class="cd-timeline__img cd-timeline__img--movie">
-              N
-            </div> 
-            <div class="cd-timeline__content text-component">
-              <h2>Final Section</h2>
-              <p class="color-contrast-medium">This is the content of the last section</p>
+            <div class="timeline-img teal accent-4"></div>
 
-              <div class="flex justify-between items-center">
-                <span class="cd-timeline__date">2022</span>
+            <div class="timeline-content timeline-card js--fadeInRight">
+              <div class="timeline-img-header">
+                <h2>Card Title</h2>
               </div>
-            </div> 
-          </div> 
+              <div class="date">25 MAY 2016</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
+            </div>
+
+          </div>   
           
+          <div class="timeline-item">
+
+            <div class="timeline-img teal accent-4"></div>
+
+            <div class="timeline-content js--fadeInLeft">
+              <div class="date">3 JUN 2016</div>
+              <h2>Quote</h2>
+              <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+            </div>
+          </div>   
+          
+          <div class="timeline-item">
+
+            <div class="timeline-img teal accent-4"></div>
+
+            <div class="timeline-content js--fadeInRight">
+              <h2>Title</h2>
+              <div class="date">22 JUN 2016</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
+            </div>
+          </div>   
+          
+          <div class="timeline-item">
+
+            <div class="timeline-img"></div>
+
+            <div class="timeline-content timeline-card js--fadeInLeft">
+              <div class="timeline-img-header">
+                <h2>Card Title</h2>
+              </div>
+              <div class="date">10 JULY 2016</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
+            </div>
+          </div>   
+
+          <div class="timeline-item">
+
+            <div class="timeline-img teal accent-4"></div>
+
+            <div class="timeline-content timeline-card js--fadeInRight">
+              <div class="timeline-img-header">
+                <h2>Card Title</h2>
+              </div>
+              <div class="date">30 JULY 2016</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
+            </div>
+          </div>  
+          
+          <div class="timeline-item">
+
+            <div class="timeline-img teal accent-4"></div>
+
+            <div class="timeline-content js--fadeInLeft">
+              <div class="date">5 AUG 2016</div>
+              <h2>Quote</h2>
+              <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+            </div>
+          </div>   
+
+          <div class="timeline-item">
+
+            <div class="timeline-img teal accent-4"></div>
+
+            <div class="timeline-content timeline-card js--fadeInRight">
+              <div class="timeline-img-header">
+                <h2>Card Title</h2>
+              </div>
+              <div class="date">19 AUG 2016</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
+            </div>
+          </div>  
+          
+          <div class="timeline-item">
+
+            <div class="timeline-img teal accent-4"></div>
+
+            <div class="timeline-content js--fadeInLeft">
+              <div class="date">1 SEP 2016</div>
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+              <a class="bnt-more" href="javascript:void(0)">More</a>
+            </div>
+          </div>   
+
+          
+              
         </div>
+      </section>
     </div>
   );
 }
