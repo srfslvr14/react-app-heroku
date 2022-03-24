@@ -1,0 +1,13 @@
+.bar{
+    height: 75px; 
+    line-height: 75px; 
+    font-size:150%;
+}
+.navlink{
+    font-size:100%; 
+    color: #FFF; 
+    text-decoration: none;
+} 
+.navlink:hover, .navlink:active{
+    color: #FFF; 
+}

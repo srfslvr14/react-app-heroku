@@ -1,13 +1,20 @@
 import React from "react";
 
-import MyStory from './aboutSites/MyStory.js'
+import hikePhotoSq from '../assests/IMG_0211.JPG'
+import hikePhotoBn from '../assests/castlerock.JPG'
+import M from 'materialize-css'
 
 export default class AboutPage extends React.Component {
+
+  componentDidMount() {
+    M.AutoInit();
+  } 
+
   render(){
     return ( 
-      <div>
-        <MyStory/> 
-      </div>
+      <h1 class="center">
+        hel;l
+      </h1>
     );
   }
 }
