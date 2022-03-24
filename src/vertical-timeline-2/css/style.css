@@ -6,12 +6,12 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   font-family: 'Roboto';
   font-size: 17px;
   font-weight: 400;
   background-color: #eee;
-}
+} */
 
 h1 {
   font-size: 200%;
@@ -26,7 +26,7 @@ header {
   padding: 150px 0;
 }
 header p {
-  font-family: 'Allura';
+  /* font-family: 'Allura'; */
   color: rgba(255, 255, 255, 0.2);
   margin-bottom: 0;
   font-size: 60px;
