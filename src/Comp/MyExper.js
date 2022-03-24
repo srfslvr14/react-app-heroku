@@ -5,6 +5,8 @@ export default function MyExper() {
     <div>
       <section class="timeline" Style="margin-top:-5%">
         <div class="containerTL">
+
+          Put a header of some kind to describe im in school
           
           {/* LML */}
           <div class="timeline-item" >
@@ -129,7 +131,7 @@ export default function MyExper() {
               <h2 Style="margin-top:2%">Cruzhacks 2021!</h2>
               <blockquote>
                 Spencer participated in Cruzhacks, 
-                developing a Discord Chat Bot cheekily named called "Bigby's Bot of Everything.
+                developing a Discord Chat Bot cheekily named called "Bigby's Bot of Everything."
                 Bigby's was developed to help referencing Dungeons and Dragons rules and content 
                 while playing with friends online during quarentine.
               </blockquote>
