@@ -1,6 +1,6 @@
 import React from "react";
 import tljs from '../vertical-timeline-master/assets/js/main'
-import TimnelineStyle from '../vertical-timeline-master/assets/css/timelineStyle.css'
+import TimnelineStyle from '../vertical-timeline-master/assets/css/newStyle.css'
 export default function AboutPage() {
   return ( 
     <div>
