@@ -1,10 +1,10 @@
 import React from "react";
-import TLcss from '../vertical-timeline-2/css/style.css'
+// import TLcss from '../vertical-timeline-2/css/style.css'
 
 export default function MyExper() {
   return ( 
     <div>
-      <section class="timeline" Style="margin-top:-5%">
+      <section class="timeline" Style="margin-top:-5% ../vertical-timeline-2/css/style.css">
         <div class="containerTL">
           <div class="timeline-item">
             <div class="timeline-img teal accent-4"></div>
