@@ -37,7 +37,7 @@ class NavLayout extends React.Component{
                             <li><a href="/about" Style="font-size:100%;">About</a></li>
                             <li><a href="/experience" Style="font-size:100%;">Experience</a></li>
                             <li><a href="/projects" Style="font-size:100%;">Projects</a></li>
-                            <li><a href={ResumePage} Style="font-size:100%;">Resume</a></li>
+                            <li><a href={ResumePage} target="_blank" Style="font-size:100%;">Resume</a></li>
                             <li><a href="/Contact" Style="font-size:100%;">Contact</a></li>
                         </ul>
 
@@ -64,7 +64,7 @@ class NavLayout extends React.Component{
                     <li><a href="/projects" Style="color:#5c6cc0">
                         <i class="material-icons" Style="color:#5c6cc0">local_florist</i> Projects
                     </a></li>
-                    <li><a href={ResumePage} Style="color:#5c6cc0">
+                    <li><a href={ResumePage} target="_blank" Style="color:#5c6cc0">
                         <i class="material-icons" Style="color:#5c6cc0">description</i> Resume
                     </a></li>
                     <li><a href="/Contact" Style="color:#5c6cc0">
