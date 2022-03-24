@@ -28,7 +28,7 @@ class NavLayout extends React.Component{
   render(){
     return(
         <Router>
-            <nav class="teal accent-4" Style="height: 100px; line-height: 100px; font-size:150%;">
+            <nav class="indigo lighten-1 z-depth-3" Style="height: 100px; line-height: 100px; font-size:150%;">
                 <div class="nav-wrapper">
                     <div class="container">
                         <a href="/" class="brand-logo center hide-on-large-only"> <img src={home} alt="home" Style="width:18%;"/> SRF</a>
@@ -52,23 +52,23 @@ class NavLayout extends React.Component{
 
             <ul id="slide-out" class="sidenav" Style="width:auto">
                 <ul Style="margin-top:15%">
-                    <li><a href="/" Style="color:teal">
-                        <i class="material-icons" Style="color:teal">home</i> Home
+                    <li><a href="/" Style="color:#5c6cc0">
+                        <i class="material-icons" Style="color:#5c6cc0">home</i> Home
                     </a></li>
-                    <li><a href="/about" Style="color:teal">
-                        <i class="material-icons" Style="color:teal">account_box</i> About
+                    <li><a href="/about" Style="color:#5c6cc0">
+                        <i class="material-icons" Style="color:#5c6cc0">account_box</i> About
                     </a></li>
-                    <li><a href="/experience" Style="color:teal">
-                        <i class="material-icons" Style="color:teal">poll</i> Experience
+                    <li><a href="/experience" Style="color:#5c6cc0">
+                        <i class="material-icons" Style="color:#5c6cc0">poll</i> Experience
                     </a></li>
-                    <li><a href="/projects" Style="color:teal">
-                        <i class="material-icons" Style="color:teal">local_florist</i> Projects
+                    <li><a href="/projects" Style="color:#5c6cc0">
+                        <i class="material-icons" Style="color:#5c6cc0">local_florist</i> Projects
                     </a></li>
-                    <li><a href={ResumePage} Style="color:teal">
-                        <i class="material-icons" Style="color:teal">description</i> Resume
+                    <li><a href={ResumePage} Style="color:#5c6cc0">
+                        <i class="material-icons" Style="color:#5c6cc0">description</i> Resume
                     </a></li>
-                    <li><a href="/Contact" Style="color:teal">
-                        <i class="material-icons" Style="color:teal">perm_phone_msg</i> Contact
+                    <li><a href="/Contact" Style="color:#5c6cc0">
+                        <i class="material-icons" Style="color:#5c6cc0">perm_phone_msg</i> Contact
                     </a></li>
                 </ul>
             </ul>

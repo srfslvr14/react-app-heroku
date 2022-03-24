@@ -13,11 +13,11 @@ export default function MyExper() {
             <div class="timeline-img-header"> 
               <h2 Style="margin-right:10%"> Marine Debris Data Visualization Tool Developer</h2>
             </div>
-              <div class="date">Today</div>
+              <div class="date indigo lighten-1">Today</div>
                 <p>
                   In a project  sponsored by the Joseph M. Long Marine Laboratory at UC Santa Cruz,
                   Spencer works as part of a small team of software developers designing and producing a web 
-                  application to visualize marine debris data collected by LML.
+                  application to visualize marine debris data collected by LML. <p/>
                 </p>
             </div>
           </div> 
@@ -29,7 +29,7 @@ export default function MyExper() {
               <div class="timeline-img-header">
                 <h2>College Tutor and Grader: Intro to Computer Graphics</h2>
               </div>
-                <div class="date">SEPT 2021 - MAR 2022</div>
+                <div class="date indigo lighten-1">SEPT 2021 - MAR 2022</div>
                 <p>
                 For the ladder half of 2021, Spencer worked with UC Santa Cruz's Introduction to 
                 Computer Graphics course as a tutor and grader. As a tutor, Spencer helped students 
