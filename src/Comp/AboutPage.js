@@ -4,7 +4,7 @@ import TLcss from '../vertical-timeline-2/css/style.css'
 export default function AboutPage() {
   return ( 
     <div>
-      <section class="timeline">
+      <section class="timeline" Style="margin-top:-5%">
         <div class="containerTL">
           <div class="timeline-item">
             <div class="timeline-img teal accent-4"></div>
