@@ -7,6 +7,8 @@ import M from 'materialize-css'
 
 function App() {
 
+  M.AutoInit();
+  
   return (
     <div>
       <Layout/>  

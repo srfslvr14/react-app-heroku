@@ -5,10 +5,9 @@ export default function ProjectPage() {
 
   return (
     <div>
-
-    <div class="row">
+      <div class="row">
         <div class="col s1 m5">
-          <div class="card hoverable medium" >
+          <div class="card hoverable small" >
             <div class="card-image waves-effect waves-block waves-light">
               <img src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
               <span class="card-title">Card Title</span>
@@ -23,7 +22,7 @@ export default function ProjectPage() {
           </div>
         </div>
         <div class="col s1 m5">
-        <div class="card hoverable medium">
+        <div class="card hoverable small">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
             </div>
@@ -38,7 +37,7 @@ export default function ProjectPage() {
           </div>
         </div>
         <div class="col s1 m5">
-          <div class="card hoverable medium">
+          <div class="card hoverable small">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
             </div>
@@ -53,7 +52,7 @@ export default function ProjectPage() {
           </div>
         </div>
         <div class="col s1 m5">
-          <div class="card hoverable medium">
+          <div class="card hoverable small">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg"/>
             </div>
@@ -80,6 +79,26 @@ export default function ProjectPage() {
           <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
         </div>
       </div>
+
+
+      CSE 160 asg0 - https://people.ucsc.edu/~srfulgha/lab0/asg0.html
+      CSE 160 asg1 - https://people.ucsc.edu/~srfulgha/lab1/asg1.html
+      CSE 160 asg2 - https://people.ucsc.edu/~srfulgha/lab2/asg2.html
+      CSE 160 asg3 - https://people.ucsc.edu/~srfulgha/lab3/asg3.html
+      CSE 160 asg4 - https://people.ucsc.edu/~srfulgha/lab4/asg4.html
+      CSE 160 asg5 - https://people.ucsc.edu/~srfulgha/lab5/lab5.html
+
+      Groupify - https://shams.pythonanywhere.com/groupify/index
+      Pawfect Match - https://github.com/srfslvr14/PawfectMatch
+      LML - site to be deployed 
+      This Site! - https://spencerfulgham.herokuapp.com/
+
+      Bigby’s Bot - https://github.com/srfslvr14/cruzhacks21
+      Check In Chicken - https://chrome.google.com/webstore/detail/check-in-chicken/igpoimkggagpelmpjlojcnjddehkoamp?hl=en&authuser=1
+
+      Logos - show png
+
+      Incoming Games!
 
     </div>
   );

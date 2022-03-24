@@ -8,8 +8,10 @@ import {
 
 import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
+import ExpPage from './MyExper.js'
 import ContactPage from "./ContactPage";
 import ProjectPage from "./ProjectPage";
+
 
 export default function Controller() {
   return (
@@ -18,6 +20,10 @@ export default function Controller() {
         <Switch>
           <Route path="/about">
             <AboutPage/>
+          </Route>
+
+          <Route path="/experience">
+            <ExpPage/>
           </Route>
 
           <Route path="/projects">

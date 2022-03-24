@@ -13,22 +13,17 @@ import {
 class NavLayout extends React.Component{
 
     componentDidMount() {
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems);
-        });
+        M.AutoInit();
     }
-    
 
-    particlesInit = (main) => {
-        console.log(main);
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    };
-    particlesLoaded = (container) => {
-        console.log(container);
-    };
-  // real code here
-
+//     particlesInit = (main) => {
+//         console.log(main);
+//         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+//     };
+//     particlesLoaded = (container) => {
+//         console.log(container);
+//     };
+//   // real code here
 
   render(){
     return(
@@ -40,6 +35,7 @@ class NavLayout extends React.Component{
                         <a href="/" class="brand-logo left hide-on-med-and-down"> <img src={home} alt="home" Style="width:18%;"/> SRF</a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down" Style="margin-right:-4%;">
                             <li><a href="/about" Style="font-size:100%;">About</a></li>
+                            <li><a href="/experience" Style="font-size:100%;">Experience</a></li>
                             <li><a href="/projects" Style="font-size:100%;">Projects</a></li>
                             <li><a href={ResumePage} Style="font-size:100%;">Resume</a></li>
                             <li><a href="/Contact" Style="font-size:100%;">Contact</a></li>
@@ -61,6 +57,9 @@ class NavLayout extends React.Component{
                     </a></li>
                     <li><a href="/about" Style="color:teal">
                         <i class="material-icons" Style="color:teal">account_box</i> About
+                    </a></li>
+                    <li><a href="/experience" Style="color:teal">
+                        <i class="material-icons" Style="color:teal">poll</i> Experience
                     </a></li>
                     <li><a href="/projects" Style="color:teal">
                         <i class="material-icons" Style="color:teal">local_florist</i> Projects
