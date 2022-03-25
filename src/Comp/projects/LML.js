@@ -1,6 +1,6 @@
 import React from "react";
 import M from 'materialize-css'
-import cse160asg0 from "../../assests/cse160asg0.png"
+import LMLss from "../../assests/lmlsn-logo.png"
 
 export default class AboutPage extends React.Component {
 
@@ -12,15 +12,15 @@ export default class AboutPage extends React.Component {
     return ( 
         <div class="card hoverable small">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" alt="vector" src={cse160asg0} />
+                <img class="activator" alt="vector" src={LMLss} />
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">
-                    Visual Vector Calculator 
+                    Marine Debris Data Visualization Tool
                     <i class="material-icons white right">more_vert</i>
                 </span>
-                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
-                  Check it out!
+                <p><a href="">
+                  Currently in Development
                 </a></p>
             </div>
 
@@ -29,15 +29,15 @@ export default class AboutPage extends React.Component {
               <br></br>
               <br></br>
               <span class="card-title grey-text text-darken-4">
-                Visual Vector Calculator
+                Marine Debris Data Visualization Tool
                 </span>
                 <p>
-                  A graphic project to calculate different vector equations from user input.
-                  The output of the calculator is either shown on the canvas or on the browser's
-                  console.
+                  The LML Marine Debris Data Visualization Tool is a website 
+                  with the goal on informing visitors of the impact of marine debris 
+                  on the beaches of Santa Cruz by displaying collected data associated to each location.
                 </p>
-                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
-                  Check it out!
+                <p><a href="">
+                  Currently in Development
                 </a></p>
             </div>
         </div>

@@ -10,7 +10,7 @@ export default class AboutPage extends React.Component {
 
   render(){
     return ( 
-      <div class="card small">
+      <div class="card hoverable small">
         <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" alt="vector" src={cse160asg0} />
         </div>

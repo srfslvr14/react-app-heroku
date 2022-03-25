@@ -8,6 +8,11 @@ import Cse160asg2 from './projects/cse160asg2.js'
 import Cse160asg3 from './projects/cse160asg3.js'
 import Cse160asg4 from './projects/cse160asg4.js'
 import Cse160asg5 from './projects/cse160asg5.js'
+import Groupify from './projects/groupify.js'
+import Pawfect from './projects/pawfect.js'
+import LML from './projects/LML.js'
+import Bigby from './projects/bigbys.js'
+import Chicken from './projects/chicken.js'
 
 export default class ProjectPage extends React.Component {
   componentDidMount() {
@@ -25,17 +30,14 @@ export default class ProjectPage extends React.Component {
             <Cse160asg3/>
             <Cse160asg4/>
             <Cse160asg5/>
-            <div class="card">TWO</div>
-            <div class="card">THREE</div>
-            <div class="card">FOUR</div>
-            <div class="card">FIVE</div>
-            <div class="card">SIX</div>
-            <div class="card">SEVEN</div>
-            <div class="card">EIGHT</div>
-            <div class="card">NINE</div>
-            <div class="card">TEN</div>
-            <div class="card">ELEVEN</div>
-            <div class="card">TWELVE</div>
+
+            <Groupify/>
+            <Pawfect/>
+            <LML/>
+
+            <Chicken/>
+            <Bigby/>
+
           </div>
         </div>
 
@@ -53,20 +55,8 @@ export default class ProjectPage extends React.Component {
         </div> */}
 
 
-        {/* CSE 160 asg0 - https://people.ucsc.edu/~srfulgha/lab0/asg0.html
-        CSE 160 asg1 - https://people.ucsc.edu/~srfulgha/lab1/asg1.html
-        CSE 160 asg2 - https://people.ucsc.edu/~srfulgha/lab2/asg2.html
-        CSE 160 asg3 - https://people.ucsc.edu/~srfulgha/lab3/asg3.html
-        CSE 160 asg4 - https://people.ucsc.edu/~srfulgha/lab4/asg4.html
-        CSE 160 asg5 - https://people.ucsc.edu/~srfulgha/lab5/lab5.html
-
-        Groupify - https://shams.pythonanywhere.com/groupify/index
-        Pawfect Match - https://github.com/srfslvr14/PawfectMatch
+        {/* 
         LML - site to be deployed 
-        This Site! - https://spencerfulgham.herokuapp.com/
-
-        Bigby’s Bot - https://github.com/srfslvr14/cruzhacks21
-        Check In Chicken - https://chrome.google.com/webstore/detail/check-in-chicken/igpoimkggagpelmpjlojcnjddehkoamp?hl=en&authuser=1
 
         Logos - show png
 
@@ -76,5 +66,3 @@ export default class ProjectPage extends React.Component {
     );
   }
 }
-
-/* <div dangerouslySetInnerHTML={lab5} /> */

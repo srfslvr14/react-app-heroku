@@ -1,6 +1,6 @@
 import React from "react";
 import M from 'materialize-css'
-import cse160asg0 from "../../assests/cse160asg0.png"
+import BBOE from "../../assests/bigby.png"
 
 export default class AboutPage extends React.Component {
 
@@ -12,14 +12,14 @@ export default class AboutPage extends React.Component {
     return ( 
         <div class="card hoverable small">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" alt="vector" src={cse160asg0} />
+                <img class="activator" alt="vector" src={BBOE} />
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">
-                    Visual Vector Calculator 
+                    Bigby's Bot of Everything
                     <i class="material-icons white right">more_vert</i>
                 </span>
-                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
+                <p><a target="_blank" href="https://github.com/srfslvr14/cruzhacks21">
                   Check it out!
                 </a></p>
             </div>
@@ -29,14 +29,14 @@ export default class AboutPage extends React.Component {
               <br></br>
               <br></br>
               <span class="card-title grey-text text-darken-4">
-                Visual Vector Calculator
+                Bigby's Bot of Everything
                 </span>
                 <p>
-                  A graphic project to calculate different vector equations from user input.
-                  The output of the calculator is either shown on the canvas or on the browser's
-                  console.
+                  Bigby's Bot is a responsive chat-bot developed for use on 
+                  Discord to improve player experience for online games of 
+                  Dungeons and Dragons.
                 </p>
-                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
+                <p><a target="_blank" href="https://github.com/srfslvr14/cruzhacks21y">
                   Check it out!
                 </a></p>
             </div>

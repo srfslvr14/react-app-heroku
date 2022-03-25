@@ -1,6 +1,6 @@
 import React from "react";
 import M from 'materialize-css'
-import cse160asg0 from "../../assests/cse160asg0.png"
+import GroupifySS from "../../assests/groupify.png"
 
 export default class AboutPage extends React.Component {
 
@@ -12,14 +12,14 @@ export default class AboutPage extends React.Component {
     return ( 
         <div class="card hoverable small">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" alt="vector" src={cse160asg0} />
+                <img class="activator" alt="vector" src={GroupifySS} />
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">
-                    Visual Vector Calculator 
+                    Groupify
                     <i class="material-icons white right">more_vert</i>
                 </span>
-                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
+                <p><a target="_blank" href="https://shams.pythonanywhere.com/groupify">
                   Check it out!
                 </a></p>
             </div>
@@ -29,14 +29,13 @@ export default class AboutPage extends React.Component {
               <br></br>
               <br></br>
               <span class="card-title grey-text text-darken-4">
-                Visual Vector Calculator
+                Groupify
                 </span>
                 <p>
-                  A graphic project to calculate different vector equations from user input.
-                  The output of the calculator is either shown on the canvas or on the browser's
-                  console.
+                  Groupify is a website which builds upon the social aspects of the Spotify web player.
+                  The site includes custom user profiles, a reccomendation system, and a group listen feature. 
                 </p>
-                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
+                <p><a target="_blank" href="https://shams.pythonanywhere.com/groupify">
                   Check it out!
                 </a></p>
             </div>
