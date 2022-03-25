@@ -24,20 +24,17 @@ export default class ProjectPage extends React.Component {
       <div>
         <div class="container">
           <div class="gCards center">
-            <Cse160asg0/>
-            <Cse160asg1/>
-            <Cse160asg2/>
-            <Cse160asg3/>
-            <Cse160asg4/>
-            <Cse160asg5/>
-
             <Groupify/>
             <Pawfect/>
             <LML/>
-
-            <Chicken/>
             <Bigby/>
-
+            <Cse160asg5/>
+            <Cse160asg0/>
+            <Cse160asg1/>
+            <Chicken/>
+            <Cse160asg2/>
+            <Cse160asg3/>
+            <Cse160asg4/>
           </div>
         </div>
 
