@@ -9,29 +9,36 @@ export default class ProjectPage extends React.Component {
     return (
       <div>
        
-       <div class="row center">
-          <div class="col s12 m6 l1 ">1</div>
-          <div class="col s12 m6 l1 ">2</div>
-          <div class="col s12 m6 l1 ">3</div>
-          <div class="col s12 m6 l1 ">4</div>
-          <div class="col s12 m6 l1 ">5</div>
-          <div class="col s12 m6 l1 ">6</div>
-          <div class="col s12 m6 l1 ">7</div>
-          <div class="col s12 m6 l1 ">8</div>
-          <div class="col s12 m6 l1 ">9</div>
-          <div class="col s12 m6 l1 ">10</div>
-          <div class="col s12 m6 l1 ">11</div>
-          <div class="col s12 m6 l1 ">12</div>
-        </div>
-
+       <div class="container">
+        <h2 class="header"> Responsive Image Gallary</h2>
         <div class="row">
-          <div class="grid-example col s12"><span class="flow-text">I am always full-width (col s12)</span></div>
-          <div class="grid-example col s12 m6"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+          <div class="col s12 l4 m6">
+            <div class="card small responsive-img" Style="background-color:#F00 ">1</div>
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="card small responsive-img" Style="background-color:#F00 ">2</div>
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="card small responsive-img" Style="background-color:#F00 ">3</div>
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="card small responsive-img" Style="background-color:#F00 ">4</div>
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="card small responsive-img" Style="background-color:#F00 ">5</div>
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="card small responsive-img" Style="background-color:#F00 ">6</div>
+          </div>
         </div>
-          
+       </div>
+
+       
+
+
 
         
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+        {/* <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
         
         <div id="modal1" class="modal">
           <div class="modal-content">
@@ -41,10 +48,10 @@ export default class ProjectPage extends React.Component {
           <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
           </div>
-        </div>
+        </div> */}
 
 
-        CSE 160 asg0 - https://people.ucsc.edu/~srfulgha/lab0/asg0.html
+        {/* CSE 160 asg0 - https://people.ucsc.edu/~srfulgha/lab0/asg0.html
         CSE 160 asg1 - https://people.ucsc.edu/~srfulgha/lab1/asg1.html
         CSE 160 asg2 - https://people.ucsc.edu/~srfulgha/lab2/asg2.html
         CSE 160 asg3 - https://people.ucsc.edu/~srfulgha/lab3/asg3.html
@@ -61,7 +68,7 @@ export default class ProjectPage extends React.Component {
 
         Logos - show png
 
-        Incoming Games!
+        Incoming Games! */}
 
       </div>
     );
