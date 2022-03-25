@@ -17,12 +17,28 @@ export default class AboutPage extends React.Component {
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">
                     Visual Vector Calculator 
-                    <i class="material-icons right">more_vert</i>
+                    <i class="material-icons white right">more_vert</i>
                 </span>
+                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
+                  Check it out!
+                </a></p>
             </div>
+
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              <i class=" card-title material-icons right">close</i>
+              <br></br>
+              <br></br>
+              <span class="card-title grey-text text-darken-4">
+                Visual Vector Calculator
+                </span>
+                <p>
+                  A graphic project to calculate different vector equations from user input.
+                  The output of the calculator is either shown on the canvas or on the browser's
+                  console.
+                </p>
+                <p><a target="_blank" href="https://people.ucsc.edu/~srfulgha/lab0/asg0.html">
+                  Check it out!
+                </a></p>
             </div>
         </div>
     );

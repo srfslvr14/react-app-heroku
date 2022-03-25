@@ -14,8 +14,6 @@ export default class ProjectPage extends React.Component {
     M.AutoInit();
   }
   
-  
-
   render(){
     return (
       <div>
