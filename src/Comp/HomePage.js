@@ -1,6 +1,6 @@
 import React from "react";
-import behind from '../assests/particlesjs-config.json'
 import M from 'materialize-css'
+// import behind from '../assests/particlesjs-config.json'
 
 
 export default class HomePage extends React.Component{
