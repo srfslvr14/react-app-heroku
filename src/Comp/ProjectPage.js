@@ -53,11 +53,9 @@ export default class ProjectPage extends React.Component {
 
 
         {/* 
-        LML - site to be deployed 
-
-        Logos - show png
-
-        Incoming Games! */}
+          Logos - show png
+          Incoming Games! 
+        */}
 
       </div>
     );
