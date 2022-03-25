@@ -1,41 +1,45 @@
 import React from "react";
-import M from 'materialize-css'
+import M from 'materialize-css';
+import pcss from './styles/project.css'
+
+import Cse160asg0 from './projects/cse160asg0.js'
+import Cse160asg1 from './projects/cse160asg1.js'
+import Cse160asg2 from './projects/cse160asg2.js'
+import Cse160asg3 from './projects/cse160asg3.js'
+import Cse160asg4 from './projects/cse160asg4.js'
+import Cse160asg5 from './projects/cse160asg5.js'
 
 export default class ProjectPage extends React.Component {
   componentDidMount() {
-      M.AutoInit();
+    M.AutoInit();
   }
+  
+  
+
   render(){
     return (
       <div>
-       
-       <div class="container">
-        <h2 class="header"> Responsive Image Gallary</h2>
-        <div class="row">
-          <div class="col s12 l4 m6">
-            <div class="card small responsive-img" Style="background-color:#F00 ">1</div>
-          </div>
-          <div class="col l4 m6 s12">
-            <div class="card small responsive-img" Style="background-color:#F00 ">2</div>
-          </div>
-          <div class="col l4 m6 s12">
-            <div class="card small responsive-img" Style="background-color:#F00 ">3</div>
-          </div>
-          <div class="col l4 m6 s12">
-            <div class="card small responsive-img" Style="background-color:#F00 ">4</div>
-          </div>
-          <div class="col l4 m6 s12">
-            <div class="card small responsive-img" Style="background-color:#F00 ">5</div>
-          </div>
-          <div class="col l4 m6 s12">
-            <div class="card small responsive-img" Style="background-color:#F00 ">6</div>
+        <div class="container">
+          <div class="gCards center">
+            <Cse160asg0/>
+            <Cse160asg1/>
+            <Cse160asg2/>
+            <Cse160asg3/>
+            <Cse160asg4/>
+            <Cse160asg5/>
+            <div class="card">TWO</div>
+            <div class="card">THREE</div>
+            <div class="card">FOUR</div>
+            <div class="card">FIVE</div>
+            <div class="card">SIX</div>
+            <div class="card">SEVEN</div>
+            <div class="card">EIGHT</div>
+            <div class="card">NINE</div>
+            <div class="card">TEN</div>
+            <div class="card">ELEVEN</div>
+            <div class="card">TWELVE</div>
           </div>
         </div>
-       </div>
-
-       
-
-
 
         
         {/* <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
