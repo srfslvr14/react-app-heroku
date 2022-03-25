@@ -1,0 +1,14 @@
+.gCard{
+  background-color:blue;
+}
+
+.gCards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .gCards { grid-template-columns: repeat(3, 1fr); }
+}
