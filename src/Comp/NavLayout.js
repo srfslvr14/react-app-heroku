@@ -66,7 +66,7 @@ class NavLayout extends React.Component{
                 </ul>
 
                 <Route path="/about">
-                    <img src={hikePhotoBn}/>
+                    <img width="100%" src={hikePhotoBn}/>
                 </Route>
                 
                 <div class="container" Style="margin-top:2%;">   

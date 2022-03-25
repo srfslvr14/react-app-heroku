@@ -5,9 +5,7 @@ export default function MyExper() {
     <div>
       <section class="timeline" Style="margin-top:-5%">
         <div class="containerTL">
-
-          Put a header of some kind to describe im in school
-          
+                    
           {/* LML */}
           <div class="timeline-item" >
             <div class="timeline-img teal accent-4"></div>
