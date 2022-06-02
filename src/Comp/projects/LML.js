@@ -19,8 +19,8 @@ export default class AboutPage extends React.Component {
                     Marine Debris Data Visualization Tool
                     <i class="material-icons white right">more_vert</i>
                 </span>
-                <p><a href="">
-                  Currently in Development
+                <p><a href="https://lml-marine-debris.herokuapp.com/">
+                  Check it out!
                 </a></p>
             </div>
 
@@ -36,8 +36,8 @@ export default class AboutPage extends React.Component {
                   with the goal on informing visitors of the impact of marine debris 
                   on the beaches of Santa Cruz by displaying collected data associated to each location.
                 </p>
-                <p><a href="">
-                  Currently in Development
+                <p><a href="https://lml-marine-debris.herokuapp.com/">
+                  Check it out!
                 </a></p>
             </div>
         </div>
